@@ -45,15 +45,14 @@ Prints: "hahaha!"
 */
 
 
-function laugh (num){
-  let laughHa  = "";
-    for (let i =0; i<num; i++){
-      
-      laughHa = laughHa + "ha";
-    }
+
+function laugh(num){
+  let laughHa = "";
+
+  for (let i =0; i<num; i++){
+    laughHa = laughHa + "ha";
   }
-  return laughHa + "!";
+
+return (laughHa + "!");
 }
 console.log(laugh(10));
-
-
